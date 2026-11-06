@@ -1,0 +1,24 @@
+{
+  "name": "PD Management Navigator",
+  "short_name": "PD Navigator",
+  "description": "Parkinson disease management pathway for clinicians: diagnose, treat, adjust, non-motor, advanced and late-stage care. Works offline.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F3F5F8",
+  "theme_color": "#1C5A78",
+  "categories": ["medical", "education", "health"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Drug reference & LED calculator", "short_name": "Drugs", "url": "./#ref", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Adjust therapy", "short_name": "Adjust", "url": "./#adjust", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Non-motor symptoms", "short_name": "Non-motor", "url": "./#nms", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
